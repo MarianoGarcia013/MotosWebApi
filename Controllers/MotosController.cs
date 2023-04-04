@@ -20,14 +20,14 @@ namespace MotosWebApi.Controllers
 
         
         [HttpGet("/Motos")]
-        public IActionResult GetMotos()
+        public IActionResult GetMotos()  // Busca todas las motos que se encuentren disponibles
         {
             return Ok(DataApi.ConsultarDB());
         }
 
        
         [HttpGet("/MotosPorModelos")]
-        public IActionResult GetConModelo(string Modelo)
+        public IActionResult GetConModelo(string Modelo)   // Busca por modelo con exito
         {
             if(Modelo == null) 
                   return BadRequest("Debe ingresar un modelo!");
@@ -37,7 +37,7 @@ namespace MotosWebApi.Controllers
 
 
         [HttpPost("/AgregarMotos")]
-        public IActionResult PostMotos(Moto moto) // Busca por modelo con exito
+        public IActionResult PostMotos(Moto moto) // Agrega una moto con exito
         {
             try
             {
