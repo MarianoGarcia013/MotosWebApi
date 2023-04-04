@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cQhpd5ueJVpxEukr6yQ0jZYKgkeaJfYZMb2KtpHcWoU=",
+  "Source": "MotosWebApi",
+  "BasePath": "_content/MotosWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
